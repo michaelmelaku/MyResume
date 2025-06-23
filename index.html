@@ -1,34 +1,76 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>John Doe - Professional Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Front-End Developer</p>
-    </header>
-    <section id="education">
-        <h2>Education</h2>
-        <p>Bachelor of Science in Computer Science - University Name (Year Graduated)</p>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <p>Front-End Developer at Company Name (2018 - Present)</p>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>Responsive Design</li>
-        </ul>
-    </section>
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
+    <div class="container">
+        <header>
+            <div class="profile-pic">
+                <img src="assets/profile.jpg" alt="Profile Picture">
+            </div>
+            <div class="intro">
+                <h1>John Doe</h1>
+                <p class="tagline">Full Stack Developer | Python Enthusiast | Open Source Contributor</p>
+                <div class="socials">
+                    <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+                    <a href="mailto:john.doe@example.com">Email</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="bio">
+            <h2>Bio</h2>
+            <p>Creative and detail-oriented software developer with over 5 years of experience in full stack development...</p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="entry">
+                <h3>MSc in Computer Science</h3>
+                <p>University of Technology, 2022 – 2024</p>
+            </div>
+            <div class="entry">
+                <h3>BSc in Software Engineering</h3>
+                <p>National Institute of Tech, 2018 – 2022</p>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="entry">
+                <h3>Full Stack Developer</h3>
+                <p>XYZ Tech Solutions, 2022 – Present</p>
+                <ul>
+                    <li>Developed web applications using Flask, React, and PostgreSQL.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>Django</li>
+                <li>React</li>
+            </ul>
+        </section>
+
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Google Cloud Certified – Associate Cloud Engineer</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2025 John Doe. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
