@@ -1,2 +1,0 @@
-# MyResume
-My Resume
