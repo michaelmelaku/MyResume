@@ -77,3 +77,13 @@ footer {
     color: #555;
 }
 
+a i {
+  font-size: 1.5em;
+  margin-right: 15px;
+  color: #00ffaa; /* or burgundy if you're using it */
+  transition: color 0.3s ease;
+}
+
+a i:hover {
+  color: #ffffff;
+}
