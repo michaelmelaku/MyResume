@@ -1,8 +1,8 @@
 
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0c0c0f;
+    font-family: 'Palatino Linotype', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0c1c0f;
     color: #eaeaea;
 }
 .container {
@@ -37,6 +37,12 @@ header {
     font-style: italic;
 }
 .socials a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #00ffaa;
+    font-weight: bold;
+}
+.buttons a {
     margin-right: 15px;
     text-decoration: none;
     color: #00ffaa;
